@@ -79,6 +79,7 @@ ProjectManager.prototype = {
 
     if( project.responsive === 0 ){
       $('body').addClass('disableResponsiveButtons');
+      setFrameSize();
     } else {
       $('body').removeClass('disableResponsiveButtons');
     }
