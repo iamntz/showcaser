@@ -164,6 +164,8 @@ header a {
 .toolbar__item a {
   display:block;
   padding:0 1em;
+  color:#444;
+  font-size:20px;
 }
 
 .preview {

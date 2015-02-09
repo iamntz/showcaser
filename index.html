@@ -18,6 +18,7 @@
     <!--[if lte IE 8 ]> <script type="text/javascript">var htmlForIe = ["abbr" ,"article" ,"aside" ,"audio" ,"canvas" ,"details" ,"figcaption" ,"figure" ,"footer" ,"header" ,"hgroup" ,"mark" ,"meter" ,"nav" ,"output" ,"progress" ,"section" ,"summary" ,"time" ,"video"], htmlForIeLen = htmlForIe.length; for(i=0;i<htmlForIeLen;i++){ document.createElement(htmlForIe[i]); }</script> <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="assets/styles/screen.css">
+    <link rel="stylesheet" type="text/css" href="assets/icons/style.css">
   </head>
   <body class="">
     <header>
@@ -26,11 +27,14 @@
       <select class="currentProjectSubpages" data-default="Project Subpages"></select>
 
       <ul class="toolbar">
-        <li class="toolbar__item toolbar__resolution"><a href="#" data-size="full">Full</a></li>
-        <li class="toolbar__item toolbar__resolution"><a href="#" data-size="768">Medium</a></li>
-        <li class="toolbar__item toolbar__resolution"><a href="#" data-size="400">Small</a></li>
-        <li class="toolbar__item"><a href="#" class="toolbar__buy" target="_blank">Buy</a></li>
-        <li class="toolbar__item"><a href="#" class="toolbar__close">Close</a></li>
+        <li class="toolbar__item toolbar__resolution">
+          <a href="#" data-size="full" title="Full Screen"><i class="icon-desktop"></i></a></li>
+        <li class="toolbar__item toolbar__resolution">
+          <a href="#" data-size="768" title="Medium Screen (tablet)"><i class="icon-tablet"></i></a></li>
+        <li class="toolbar__item toolbar__resolution">
+          <a href="#" data-size="400" title="Small Screen (phone)"><i class="icon-smartphone"></i></a></li>
+        <li class="toolbar__item"><a href="#" class="toolbar__buy" target="_blank"><i class="icon-shopping-cart"></i></a></li>
+        <li class="toolbar__item"><a href="#" class="toolbar__close" title="Close this Bar"><i class="icon-close"></i></a></li>
       </ul>
     </header>
 
