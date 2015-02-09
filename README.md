@@ -1,5 +1,5 @@
 ### What's this?
-A simple utility to showcase your site (useful if you want to show off your masterpiece in markets like Envato). You can see a demo [here](http://www.iamntz.com/projects/ShowCaser/)
+A simple utility to showcase your site (useful if you want to show off your masterpiece in markets like Envato). You can see a demo [here](http://ionutstaicu.com/projects/ShowCaser/)
 
 ### What about Switcheroo?
 [Switcheroo](https://github.com/OriginalEXE/Switcheroo) is awesome! In fact, Switcheroo served as a main inspiration, therefore Switcheroo configuration file (`projects.js`) can be used directly on ShowCaser
