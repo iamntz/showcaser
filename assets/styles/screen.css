@@ -161,6 +161,8 @@ header a {
   display:none;
 }
 
+.toolbar__buy.disableBuyButton {display:none;}
+
 .toolbar__item a {
   display:block;
   padding:0 1em;
@@ -178,4 +180,12 @@ header a {
   -o-transition:all 0.3s ease;
   transition:all 0.3s ease;
   margin:auto;
+}
+
+
+@media all and (max-width: 960px) {
+  .breadcrumb {display:none;}
+}
+@media all and (max-width: 900px) {
+  .toolbar__resolution {display:none;}
 }

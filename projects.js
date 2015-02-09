@@ -4,7 +4,7 @@ var projects = [
     tag      : 'WP',
     img      : 'http://i.imgur.com/hgp2v0H.jpg',
     url      : 'http://visia.themes.pixelentity.com/',
-    purchase : 'http://themeforest.net/item/visia-responsive-one-page-retina-wordpress-theme/5602067?ref=OriginalEXE',
+    purchase : '',
     tooltip  : 'Optional Tooltip',
     subpages : [
       {
@@ -22,7 +22,7 @@ var projects = [
 
   {
     name     : 'BigWig',
-    tag      : 'WP',
+    tag      : [ 'WP', 'Non Responsive' ],
     img      : 'http://i.imgur.com/uoreaON.jpg',
     url      : 'http://bigwig.themes.pixelentity.com/',
     purchase : 'http://themeforest.net/item/bigwig-modern-corporate-retina-wordpress-theme/5217458?ref=OriginalEXE',

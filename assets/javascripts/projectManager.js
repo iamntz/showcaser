@@ -1,7 +1,6 @@
 function ProjectManager( projects ) {
   var $this = this;
 
-
   this.projects = projects;
   this.container = $('.projects ul');
   this.currentProject = $('.currentProject');
@@ -40,6 +39,7 @@ ProjectManager.prototype = {
 
   getTagTemplate: function( tag ){
     var className = 'tag-' + tag.replace(/[^a-z]+$/ig , '' );
+    className = className.replace(/\s/, '-');
     return '<span class="tag ' + className + '">' + tag + '</span>';
   },
 
@@ -66,7 +66,12 @@ ProjectManager.prototype = {
 
     el.parent().addClass('project-isActive').siblings().removeClass('project-isActive');
 
-    $('.toolbar__buy').attr( 'href', project.purchase );
+    var buyButton = $('.toolbar__buy');
+    if( project.purchase ){
+      buyButton.removeClass('disableBuyButton').attr( 'href', project.purchase );
+    } else {
+      buyButton.addClass('disableBuyButton');
+    }
     $('.toolbar__close').attr( 'href', project.url );
     $('title').html( project.name );
     $('html').removeClass( this.projectSelectorActiveClass );
