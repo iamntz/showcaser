@@ -2,7 +2,7 @@
 A simple utility to showcase your site (useful if you want to show off your masterpiece in markets like Envato). You can see a demo [here](http://www.iamntz.com/projects/ShowCaser/)
 
 ### What about Switcheroo?
-[Switcheroo](https://github.com/OriginalEXE/Switcheroo) is awesome! In fact, Switcheroo served as a main inspiration, therefore Switcheroo configuration file (`projects.js`) can be used dirrectly on ShowCaser
+[Switcheroo](https://github.com/OriginalEXE/Switcheroo) is awesome! In fact, Switcheroo served as a main inspiration, therefore Switcheroo configuration file (`projects.js`) can be used directly on ShowCaser
 
 So if Switcheroo is so awesome, why ShowCaser? Considering that pages that are going to be displayed via ShowCaser are already big (1.5Mb is the super best case scenario), we want to have the whole set up done ASAP. I ditched bootstrap (both CSS ans JS), carousel scripts and everything that was not super important (by keeping the same aspect). Long story short, we have the whole code in about 50kb (jQuery and fonts included). Depending on how ShowCaser is received, I'll probably ditch also jQuery to make things even faster!
 
@@ -24,8 +24,8 @@ var projects = [
     tooltip  : '', // optional
     subpages : [ // optional
       {
-        name : "", // the name that will be displayed in the dropdown
-        url  : "" // the url that will be loaded in the frame
+        name : "", // the name that will be displayed in the drop down
+        url  : "" // the URL that will be loaded in the frame
       }
     ],
     responsive: 0 // optional; if set to zero, size buttons won't be displayed
@@ -39,7 +39,7 @@ The default configuration assumes that you have named the `projects` objects ava
 new ProjectManager( projects );
 ```
 
-Obviously enough, you can use whatever name you would like or even pass the object dirrectly! (although not recommended since will make the code harder to manage)
+Obviously enough, you can use whatever name you would like or even pass the object directly! (although not recommended since will make the code harder to manage)
 
 ### Can I add other screen sizes?
 Yes!
@@ -56,7 +56,7 @@ Although I quickly tested on an iPad (iOS 8), I have no guarantee that will beha
 
 ### To Do
 
-- add URL for subprojects
+- add URL for sub projects
 - ditch jQuery completely
 - add unit tests
 - improve CSS
